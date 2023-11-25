@@ -4,7 +4,7 @@
 A single-file utility library for working with spherical harmonics in shaders. It contains macros for declaring, adding radiance to, packing, unpacking and sampling irradiance using L1 spherical harmonics. It is mainly intended to be a drop-in helper when implementing GI solutions, as L1 harmonics provide decent directional information and only require 3 float4s for storage (meaning you only have to read 3 textures to sample irradiance).
 
 # How do I use it?
-[Example project](https://github.com/Fewes/SphericalHarmonicsDev)
+To begin, you need to add the package using the Package Manager (Add package from GIT url...) Here is a small [Example project](https://github.com/Fewes/SphericalHarmonicsDev) that does this.
 
 ## Include library in shader
 ```
