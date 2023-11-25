@@ -62,7 +62,7 @@ SH# sh = SAMPLE_SH_TEXTURE3D(SH_TEXTURE3D_PARAM_IN(_IrradianceField), my_linear_
 ```
 
 ## Declaring an irradiance volume texture (UAV)
-(3 textures must be set as _IrradianceFieldOutput0, _IrradianceFieldOutput1 and _IrradianceFieldOutput2)
+(3 textures must be set as _IrradianceFieldOutput0_RW, _IrradianceFieldOutput1_RW and _IrradianceFieldOutput2_RW)
 ```
 SH_RWTEXTURE3D(_IrradianceFieldOutput)
 ```
